@@ -1,2 +1,2 @@
-FROM target:8.0.18-jre8
+FROM tomcat:8.0.18-jre8
 COPY target/maven-web-application.war /usr/local/target/webapps/maven-web-application.war
